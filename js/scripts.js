@@ -40,4 +40,8 @@ $('#handlee').click(function() {
 
 $(function() {
   indie();
+  $('select').material_select();
+  $('form').submit(function(event) {
+    event.preventDefault();
+  })
 })

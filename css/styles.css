@@ -1,3 +1,7 @@
+body {
+  background-color: rgba(240,240,240,0.42);
+}
+
 #hero {
   background: url('http://www.connectionsinrecovery.com/wp-content/uploads/2016/08/iStock_85524087_MEDIUM.jpg');
   background-repeat: no-repeat;
@@ -11,7 +15,7 @@ nav {
   height: 126px;
 }
 
-nav:hover {
+#hero nav:hover {
   background-color: #fff;
 }
 
@@ -74,9 +78,23 @@ nav ul a:hover  {
   background-position: center center;
 }
 
-.col {
+.col1, .col2, .col3, .col4, .col5, .col6 {
   height: 40vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.btn {
+  background-color: #333;
+}
+
+.btn:hover, .btn:focus {
+  background-color: transparent;
+  border: 1px solid #333;
+  color: #333;
+}
+
+.dropdown-content li>span {
+  color: #333;
 }
