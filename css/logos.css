@@ -6,7 +6,6 @@
 .kalam { font-family: 'Kalam', cursive; }
 
 nav {
-  margin-top: 30px;
   margin-bottom: 20px; }
 
 nav:nth-of-type(even) {

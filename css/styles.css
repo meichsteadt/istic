@@ -1,9 +1,82 @@
+#hero {
+  background: url('http://www.connectionsinrecovery.com/wp-content/uploads/2016/08/iStock_85524087_MEDIUM.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
 nav {
   background-color: transparent;
-  box-shadow: none; }
+  box-shadow: none;
+  transition: background-color .2s;
+  height: 126px;
+}
+
+nav:hover {
+  background-color: #fff;
+}
 
 nav .brand-logo, nav ul a {
-  color: #333; }
+  color: #333;
+}
 
 nav .brand-logo {
-  font-size: 56px; }
+  font-size: 56px;
+  font-family: 'Pacifico', cursive;
+}
+
+.nav-wrapper {
+  top: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+nav ul a:hover  {
+  background-color: transparent;
+  border-bottom: 2px solid #333;
+}
+
+#grid {
+  height: 100vh;
+}
+
+#grid .col {
+  padding: 0;
+}
+
+
+.col .m12 {
+  height: 60vh;
+}
+
+.col1 {
+    background: url('http://a.fastcompany.net/multisite_files/fastcompany/imagecache/inline-large/inline/2016/08/3062421-inline-p-1-polars-new-android-smartwatch-can-train-serious-and-novice-athletes.jpg');
+
+}
+
+.col2 {
+  background: url('http://www.personaltrainersetobicoke.com/uploads/8/9/2/2/89220852/etobicoke-personaltraining-deadlifts_4.png');
+}
+
+.col3 {
+  background: url('http://stiri.suceavainfo.ro/wp-content/uploads/2016/03/yoga-696x348.jpg');
+}
+
+.col4 {
+  background: url('http://ael.education/assets/images/learn/coaching-tools-for-the-new-year/_wide700/New-Year.jpg');
+}
+
+.col5 {
+  background: url('https://s-media-cache-ak0.pinimg.com/564x/71/dd/ea/71ddeae3fb8cd4bed327003282f64fe8.jpg');
+}
+
+.col6 {
+  background: url('http://sanfordhousegr.com/wp-content/uploads/2016/01/shutterstock_367744466.jpg');
+  background-position: center center;
+}
+
+.col {
+  height: 40vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
