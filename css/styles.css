@@ -1,35 +1,9 @@
-.indie {
-  font-family: 'Indie Flower', cursive;
-}
-.pacifico {
-  font-family: 'Pacifico', cursive;
-
-}
-.satisfy {
-  font-family: 'Satisfy', cursive;
-
-}
-.courgette {
-  font-family: 'Courgette', cursive;
-
-}
-.handlee {
-  font-family: 'Handlee', cursive;
-
-}
-.kalam {
-  font-family: 'Kalam', cursive;
-
-}
-
 nav {
-  margin-bottom: 20px;
-}
+  background-color: transparent;
+  box-shadow: none; }
 
-nav:nth-of-type(even) {
-  background-color: #26a69a;
-}
+nav .brand-logo, nav ul a {
+  color: #333; }
 
-nav:nth-of-type(3n) {
-  background-color: #2196f3;
-}
+nav .brand-logo {
+  font-size: 56px; }
